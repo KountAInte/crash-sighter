@@ -5,8 +5,7 @@ import {CoursesService} from './courses.service';
 
 
 @Component({
-    // tslint:disable-next-line:component-selector
-    selector: 'courses',
+    selector: 'app-courses',
     template: 'courses.component.html',
     styleUrls: ['/courses.component.css']
 
