@@ -1,0 +1,45 @@
+
+<!-- <table class="table-responsive-sm table table-striped table-hover">
+  <thead class="bg-info">
+    <tr>
+        <th>id</th>
+        <th>monigote</th>
+        <th>tipo incidencia</th>
+        <th>fecha inicio</th>
+        <th>fecha final</th>
+        </tr>
+  </thead>
+
+  <tbody *ngFor="let crash of crashes" >
+    <tr *ngIf="crash.es_obras=='S'&& crash.es_accidente=='N'" class="table-warning"> 
+      <td>{{crash.id_incidencia}}</td>
+      <td *ngIf="crash.es_obras=='S'&& crash.es_accidente=='N'"> <i class="material-icons">ic_gavel</i></td>
+      <td *ngIf="crash.es_accidente=='S'"> <i class="material-icons">ic_report_problem</i></td>
+      <td *ngIf="crash.es_accidente=='N'&& crash.es_obras=='N'"><i class="material-icons">ic_pie_chart_outlined</i></td>
+      <td>{{crash.nom_tipo_incidencia}}</td>
+      <td>{{crash.fh_inicio | date:'MM/dd/yyyy' }}</td>
+      <td>{{crash.fh_final| date:'MM/dd/yyyy'}}</td>
+     
+    </tr>
+  </tbody>
+</table>
+ -->
+
+  <!-- Hello {{crash.es_obras == 'SI' ? 'si' : 'no' }} -->
+<!-- <div *ngFor="let person of people"
+    [ngSwitch]="crash.es_obras"> 
+
+  <td *ngSwitchCase="'S'" class="text-success">Bonitas obras</td>
+  <td *ngSwitchCase="'N'" class="text-primary">Bonito Accidente</td>
+  <td *ngSwitchDefault class="text-warning">es otro</td>
+
+</div> -->
+
+<!-- 
+<div [ngSwitch]="crash.es_obras"> 
+
+    <td *ngSwitchCase="'S'" class="text-success">Bonitas obras</td>
+    <td *ngSwitchCase="'N'" class="text-primary">Bonito Accidente</td>
+    <td *ngSwitchDefault class="text-warning">es otro</td>
+    
+    </div> -->
