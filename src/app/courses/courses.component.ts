@@ -6,8 +6,8 @@ import {CoursesService} from './courses.service';
 
 @Component({
     selector: 'app-courses',
-    template: 'courses.component.html',
-    styleUrls: ['/courses.component.css']
+    template: './courses.component.html',
+    styleUrls: ['./courses.component.css']
 
 })
 // exporto la clase para que la pueda ver angular
