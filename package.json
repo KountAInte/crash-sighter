@@ -13,8 +13,8 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^1.6.6",
     "typescript": "~2.5.3",
-    "@angular/cli": "^6.0.1",
     "@angular/compiler-cli": "^5.2.0",
     "@agm/core": "^1.0.0-beta.2",
     "@agm/snazzy-info-window": "^1.0.0-beta.2",
