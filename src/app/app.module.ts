@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { AvbarComponent } from './avbar/avbar.component';
 import { BotoneraComponent } from './botonera/botonera.component';
-import { CrashTableComponent } from './crash-table/crash-table.component';
+
 import { CrashMapComponent } from './crash-map/crash-map.component';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
@@ -25,7 +25,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
-import { MarcadorComponent } from './marcador/marcador.component';
+
 import { MensajeInicialComponent } from './mensaje-inicial/mensaje-inicial.component';
 import { DataTablesModule } from 'angular-datatables';
 import { AngularwayComponent } from './angularway/angularway.component';
@@ -37,9 +37,7 @@ import { HomePageComponent } from './home-page/home-page.component';
     CoursesComponent,
     AvbarComponent,
     BotoneraComponent,
-    CrashTableComponent,
     CrashMapComponent,
-    MarcadorComponent,
     MensajeInicialComponent,
     AngularwayComponent,
     AboutPageComponent,
